@@ -1,0 +1,3 @@
+This is a thermostat.
+for every 2 degrees hoter than 22C, one of the lEDs lights up. 
+All degree values and thresholds can be changed in the source code.
