@@ -1,0 +1,5 @@
+This is a "warp speed" interface simulator.
+The program's first run flashes the yellow lights as it were initializing the warp engine.
+After a few blinks, it lights the green light, meaning that the warp engine is ready to go.
+Both red lights light up and blink when the button is pressed, meaning that the warp engine is being used.
+After using the warp engine, the status goes back to "ready to use", with the green light turned on.
