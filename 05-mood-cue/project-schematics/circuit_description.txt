@@ -1,0 +1,10 @@
+The servo motor can turn 180 degrees.
+From the 5v power we connect in parallel a 100um capacitor and a potentiometer. 
+The potentiometer 3 pin (middle) sends information regarding its current resistence to A0 Analog In
+Thius circuit connects to GND
+
+in paralel with this circuit above, we connect (to the same ground and 5v power) another 100um capacitor and a servo motor
+The middle pin of the Servo motor goes to Digital Pin 9, to be controled (via software) by the resistence in A0.
+This circuit connects to GND
+
+When we move the potentiometer, the Servo Motor also turns.
