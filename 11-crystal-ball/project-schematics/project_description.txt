@@ -1,0 +1,4 @@
+Each time the button is pressed, the software shows one of the 8 possible answears at the LCD screen.
+There is 2 potentiometers, one connected directly from power to GND, with the third pin on Vo, which controls text contrast,
+and another connected directly from power to GND, with the thirs pin on LED+, which controls the LCD brightness.
+The rest of the schematics are the same as in the book.
