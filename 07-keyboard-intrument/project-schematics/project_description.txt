@@ -1,0 +1,4 @@
+There are 4 switches wired in parallel each with a different resistor connected in series with the switch.
+The system is connected to A0 
+Every time a switch is pressed, the loop closes and a different value is sent to A0. 
+Deppending on the value sent, the Piezo executes a different note, given the code specifications.
