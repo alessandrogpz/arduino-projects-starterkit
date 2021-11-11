@@ -1,0 +1,3 @@
+This project has an RGB LED lamp connected to 3 digital pins. 
+Connected to A0, A1, and A2, there are three potentiometers connected in parallel. 
+The potentiometers control the 3 LED colors individually. 

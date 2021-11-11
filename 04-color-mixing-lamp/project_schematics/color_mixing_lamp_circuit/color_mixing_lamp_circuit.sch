@@ -1,0 +1,189 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 618D501F
+P 3500 4200
+F 0 "A?" H 3500 5381 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 3500 5290 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 3500 4200 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 3500 4200 50  0001 C CNN
+	1    3500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBC D?
+U 1 1 618D859A
+P 1650 4350
+F 0 "D?" H 1650 4847 50  0000 C CNN
+F 1 "LED_RGBC" H 1650 4756 50  0000 C CNN
+F 2 "" H 1650 4300 50  0001 C CNN
+F 3 "~" H 1650 4300 50  0001 C CNN
+	1    1650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R
+U 1 1 618D9F4A
+P 2350 4350
+F 0 "R" H 2420 4396 50  0000 L CNN
+F 1 "220" H 2420 4305 50  0000 L CNN
+F 2 "" V 2280 4350 50  0001 C CNN
+F 3 "~" H 2350 4350 50  0001 C CNN
+	1    2350 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R
+U 1 1 618E23A1
+P 2350 4050
+F 0 "R" H 2420 4096 50  0000 L CNN
+F 1 "220" H 2420 4005 50  0000 L CNN
+F 2 "" V 2280 4050 50  0001 C CNN
+F 3 "~" H 2350 4050 50  0001 C CNN
+	1    2350 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R
+U 1 1 618E25F0
+P 2350 4650
+F 0 "R" H 2420 4696 50  0000 L CNN
+F 1 "220" H 2420 4605 50  0000 L CNN
+F 2 "" V 2280 4650 50  0001 C CNN
+F 3 "~" H 2350 4650 50  0001 C CNN
+	1    2350 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 4800 2500 4800
+Wire Wire Line
+	2500 4800 2500 4650
+Wire Wire Line
+	3000 4700 2600 4700
+Wire Wire Line
+	2600 4700 2600 4350
+Wire Wire Line
+	2600 4350 2500 4350
+Wire Wire Line
+	3000 4600 2700 4600
+Wire Wire Line
+	2700 4600 2700 4050
+Wire Wire Line
+	2700 4050 2500 4050
+Wire Wire Line
+	2200 4050 2050 4050
+Wire Wire Line
+	2050 4050 2050 4150
+Wire Wire Line
+	2050 4150 1850 4150
+Wire Wire Line
+	2200 4350 1850 4350
+Wire Wire Line
+	2200 4650 2050 4650
+Wire Wire Line
+	2050 4650 2050 4550
+Wire Wire Line
+	2050 4550 1850 4550
+Wire Wire Line
+	1450 4350 1450 5450
+Wire Wire Line
+	1450 5450 3500 5450
+Wire Wire Line
+	3500 5450 3500 5300
+Wire Wire Line
+	3700 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 4100
+Wire Wire Line
+	3500 5450 4700 5450
+Connection ~ 3500 5450
+Wire Wire Line
+	4700 5450 4700 4650
+Connection ~ 5200 4650
+Connection ~ 4700 4650
+Wire Wire Line
+	5200 4650 5700 4650
+Wire Wire Line
+	4700 4650 5200 4650
+Wire Wire Line
+	4700 4100 4700 4350
+Wire Wire Line
+	5700 4100 5700 4350
+Wire Wire Line
+	5200 4100 5200 4350
+Wire Wire Line
+	5200 4100 5700 4100
+Connection ~ 5200 4100
+Wire Wire Line
+	4700 4100 5200 4100
+Connection ~ 4700 4100
+Wire Wire Line
+	4250 4100 4700 4100
+$Comp
+L Device:R_POT RV?
+U 1 1 618DD98B
+P 5700 4500
+F 0 "RV?" H 5631 4546 50  0000 R CNN
+F 1 "R_POT" H 5631 4455 50  0000 R CNN
+F 2 "" H 5700 4500 50  0001 C CNN
+F 3 "~" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 618DD778
+P 4700 4500
+F 0 "RV?" H 4631 4546 50  0000 R CNN
+F 1 "R_POT" H 4631 4455 50  0000 R CNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "~" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 618DB2CE
+P 5200 4500
+F 0 "RV?" H 5131 4546 50  0000 R CNN
+F 1 "R_POT" H 5131 4455 50  0000 R CNN
+F 2 "" H 5200 4500 50  0001 C CNN
+F 3 "~" H 5200 4500 50  0001 C CNN
+	1    5200 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4200 4000 4200
+Wire Wire Line
+	5050 4500 4950 4500
+Wire Wire Line
+	4950 4500 4950 4300
+Wire Wire Line
+	4950 4300 4000 4300
+Wire Wire Line
+	5550 4500 5550 4950
+Wire Wire Line
+	5550 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 4400
+Wire Wire Line
+	4550 4500 4100 4500
+Wire Wire Line
+	4250 4400 4000 4400
+Wire Wire Line
+	4100 4500 4100 4200
+$EndSCHEMATC
