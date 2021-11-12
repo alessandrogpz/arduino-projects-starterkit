@@ -1,0 +1,6 @@
+This project is a Theremin with an on/off switch and a volume potentiometer.
+When loaded/started for the first time, the program stays in 5 seconds in a configuration mode (when the red LED is on). During this time, the user should repetitively cast shadows onto the photoresistor in different ways while also releasing them to be exposed to the light.
+When the yellow LED turns on, the program is ready to be started. 
+Pressing the button will start the Theremin, and when shadows are cast onto the photoresistor once more, the pitch of the buzzer differs. 
+To turn the program temporarily off, press the button again. 
+To control the buzzer's volume, use the potentiometer. 
