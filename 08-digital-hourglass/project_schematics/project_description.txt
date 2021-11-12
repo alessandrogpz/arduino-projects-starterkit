@@ -1,0 +1,3 @@
+This simple hourglass program will increasingly light up the LEDs based on the interval established in the codebase. 
+When all lights are on, the program flashes all lights on and off for a one-second duration in between. 
+Pressing the button resets the program, and the count begins again from the first LED.
