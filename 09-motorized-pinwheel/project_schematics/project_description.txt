@@ -1,0 +1,2 @@
+This motorized pinwheel has a potentiometer to control its voltage. 
+It sends its resistance value to A0, which is then mapped from 0-1023 to 0-255 and delivered to the transistor (FET) via Digital output 9, which supports PWM (Pulse Width Modulation). 
