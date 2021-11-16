@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 6193C504
+P 5800 3350
+F 0 "A?" H 5800 4531 50  0001 C CNN
+F 1 "Arduino_UNO_R3" H 5800 4439 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 5800 3350 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:L293D U?
+U 1 1 6193CEA9
+P 3750 3500
+F 0 "U?" H 3750 4681 50  0001 C CNN
+F 1 "L293D" H 3750 4589 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4000 2750 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/l293.pdf" H 3450 4200 50  0001 C CNN
+	1    3750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_DC M?
+U 1 1 6193E956
+P 4700 2400
+F 0 "M?" H 4858 2396 50  0001 L CNN
+F 1 "Motor_DC" H 4858 2350 50  0000 L CNN
+F 2 "" H 4700 2310 50  0001 C CNN
+F 3 "~" H 4700 2310 50  0001 C CNN
+	1    4700 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 6193F2CB
+P 2100 3750
+F 0 "BT?" H 2208 3796 50  0001 L CNN
+F 1 "9V" H 2208 3750 50  0000 L CNN
+F 2 "" V 2100 3810 50  0001 C CNN
+F 3 "~" V 2100 3810 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6193FB6C
+P 7750 3850
+F 0 "R?" H 7820 3896 50  0001 L CNN
+F 1 "10K" H 7820 3850 50  0000 L CNN
+F 2 "" V 7680 3850 50  0001 C CNN
+F 3 "~" H 7750 3850 50  0001 C CNN
+	1    7750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 6193FFC7
+P 8700 3250
+F 0 "SW?" H 8700 3535 50  0001 C CNN
+F 1 "SW_Push_Dual" H 8700 3443 50  0000 C CNN
+F 2 "" H 8700 3450 50  0001 C CNN
+F 3 "~" H 8700 3450 50  0001 C CNN
+	1    8700 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 619408C3
+P 7000 3350
+F 0 "RV?" H 6931 3396 50  0001 R CNN
+F 1 "R_POT" H 6931 3305 50  0001 R CNN
+F 2 "" H 7000 3350 50  0001 C CNN
+F 3 "~" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 619419C4
+P 7950 3250
+F 0 "SW?" H 7950 3535 50  0001 C CNN
+F 1 "SW_Push_Dual" H 7950 3443 50  0000 C CNN
+F 2 "" H 7950 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61942430
+P 8500 3850
+F 0 "R?" H 8570 3896 50  0001 L CNN
+F 1 "10K" H 8570 3850 50  0000 L CNN
+F 2 "" V 8430 3850 50  0001 C CNN
+F 3 "~" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2350 6000 2250
+Wire Wire Line
+	6000 2250 7000 2250
+Wire Wire Line
+	7950 2250 7950 3050
+Wire Wire Line
+	7950 2250 8700 2250
+Wire Wire Line
+	8700 2250 8700 3050
+Connection ~ 7950 2250
+Wire Wire Line
+	8500 3450 8500 3700
+Wire Wire Line
+	7750 3450 7750 3700
+Connection ~ 7000 2250
+Wire Wire Line
+	7000 2250 7950 2250
+Wire Wire Line
+	7000 2250 7000 3200
+Wire Wire Line
+	6300 3350 6850 3350
+Wire Wire Line
+	8500 4000 8500 4700
+Wire Wire Line
+	8500 4700 7750 4700
+Wire Wire Line
+	5800 4700 5800 4450
+Wire Wire Line
+	7750 4000 7750 4700
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 4700 7000 4700
+Wire Wire Line
+	7000 3500 7000 4700
+Connection ~ 7000 4700
+Wire Wire Line
+	7000 4700 5800 4700
+Wire Wire Line
+	8700 3450 8700 4900
+Wire Wire Line
+	8700 4900 5100 4900
+Wire Wire Line
+	5100 4900 5100 3250
+Wire Wire Line
+	5100 3250 5300 3250
+Wire Wire Line
+	7950 3450 7950 5150
+Wire Wire Line
+	4850 5150 4850 3150
+Wire Wire Line
+	4850 3150 5300 3150
+Wire Wire Line
+	4850 5150 7950 5150
+Wire Wire Line
+	3550 4300 3550 4700
+Wire Wire Line
+	3550 4700 3650 4700
+Connection ~ 5800 4700
+Wire Wire Line
+	3650 4300 3650 4700
+Connection ~ 3650 4700
+Wire Wire Line
+	3650 4700 5800 4700
+Wire Wire Line
+	3250 3300 2700 3300
+Wire Wire Line
+	2700 3300 2700 5150
+Wire Wire Line
+	2700 5150 4650 5150
+Wire Wire Line
+	4650 5150 4650 3650
+Wire Wire Line
+	4650 3650 5300 3650
+Wire Wire Line
+	3250 2900 2850 2900
+Wire Wire Line
+	2850 2900 2850 5000
+Wire Wire Line
+	2850 5000 4500 5000
+Wire Wire Line
+	4500 5000 4500 3050
+Wire Wire Line
+	4500 3050 5300 3050
+Wire Wire Line
+	3250 3100 3000 3100
+Wire Wire Line
+	3000 3100 3000 4850
+Wire Wire Line
+	3000 4850 4350 4850
+Wire Wire Line
+	4350 4850 4350 2950
+Wire Wire Line
+	4350 2950 5300 2950
+Wire Wire Line
+	4250 2900 4700 2900
+Wire Wire Line
+	4700 2900 4700 2600
+Wire Wire Line
+	4250 3100 4900 3100
+Wire Wire Line
+	4900 3100 4900 2100
+Wire Wire Line
+	4900 2100 4700 2100
+Wire Wire Line
+	6000 2250 6000 1950
+Wire Wire Line
+	6000 1950 3650 1950
+Wire Wire Line
+	3650 1950 3650 2500
+Connection ~ 6000 2250
+Wire Wire Line
+	3850 2500 3850 2250
+Wire Wire Line
+	3850 2250 2100 2250
+Wire Wire Line
+	2100 2250 2100 3550
+Wire Wire Line
+	2100 3950 2100 4700
+Wire Wire Line
+	2100 4700 3550 4700
+Connection ~ 3550 4700
+$EndSCHEMATC

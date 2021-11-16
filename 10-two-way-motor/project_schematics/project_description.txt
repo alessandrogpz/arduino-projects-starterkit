@@ -1,0 +1,3 @@
+The potentiometer regulates the voltage that the rotor will receive. By doing so, we can control the motor speed. 
+The first (outermost) push button is an on/off switch.
+The second button (innermost) controls the spin direction of the rotor. When pressed, it changes the spin from clockwise to counterclockwise and vice versa. 
