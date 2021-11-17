@@ -1,0 +1,5 @@
+This project controls the background color of the Arduino logo using Processing. 
+Both Arduino (.ino) and Processing (.pde) are included, but only the processing file should be initialized and run. 
+While running the Processing file, tweak the knob to make the background of the Arduino logo change color.
+
+For the Processing software, download at: https://processing.org/
